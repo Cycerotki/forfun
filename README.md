@@ -17,9 +17,9 @@ Use these steps to upload a git repo to Github (credits to https://product.hubsp
 14. Delete your local git branch using git branch -d localBranchName
 
 Extra steps:
-A1. To login to git from terminal, add your username and email using git config --global user.name and git config --global user.email
-A2. To remove your credentials, use:
+1. To login to git from terminal, add your username and email using git config --global user.name and git config --global user.email
+2. To remove your credentials, use:
   git config --global --unset user.name
   git config --global --unset user.email
   git config --global --unset credential.helper
-A3. If you need to login during git push, go and generate personal acces tokens (user icon > settings > Developer settings > Personal Access Token). Use the token id as your password for the git push password
+3. If you need to login during git push, go and generate personal acces tokens (user icon > settings > Developer settings > Personal Access Token). Use the token id as your password for the git push password
