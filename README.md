@@ -9,7 +9,7 @@ Use these steps to upload a git repo to Github (credits to https://product.hubsp
 6. Create a new branch to store your commits via git checkout -b <make a branch name here>
 7. See the current branch using git branch
 8. Switch branches using git switch <branchname> or git checkout <branchname>
-9. If your repo isn't created yet, go create one. Then follow the instructions on '....or push an existing repository from the command line'
+9. If your repo isn't created yet, go create one. Then add git origin using git remote add origin https://{username}:{password}@github.com/{username}/project.git
 10. To push your new branch, use git push origin <branchname>
 11. On GitHub, open a pull request to merge branch with main
 12. Then merge online, or you can follow instructions to merge with main branch from your terminal
@@ -17,7 +17,7 @@ Use these steps to upload a git repo to Github (credits to https://product.hubsp
 14. Delete your local git branch using git branch -d localBranchName
 
 Extra steps:
-1. To login to git from terminal, add your username and email using git config --global user.name and git config --global user.email
+1. To login to git from terminal, add your username and email using git config --global user.name "your username" and git config --global user.email "your email"
 2. To remove your credentials, use:
   git config --global --unset user.name
   git config --global --unset user.email
